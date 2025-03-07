@@ -9,4 +9,8 @@ https://www.putty.be/latest.html
 ```
 - 电脑插入TF卡
 - Raspberry Pi Imager烧录器配置如下：  
-![配置]()
+![配置](https://github.com/fortunate-ouyanghui/env-config/blob/main/raspberry1.jpg)
+![配置](https://github.com/fortunate-ouyanghui/env-config/blob/main/raspberry2.jpg)
+![配置](https://github.com/fortunate-ouyanghui/env-config/blob/main/raspberry3.jpg)
+
+
