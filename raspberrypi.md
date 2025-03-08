@@ -14,8 +14,11 @@ https://www.putty.be/latest.html
 ![配置](https://github.com/fortunate-ouyanghui/env-config/blob/main/raspberry3.jpg)
 - 烧录
 - 使用Putty连接树莓派Ubuntu系统
+1. 获取树莓派ip
+![ra](https://github.com/user-attachments/assets/d9000e8c-15cf-4733-b6cc-8f35df735310)
+2. 连接
 - 输入账号和密码
-
+![putty](https://github.com/user-attachments/assets/a6008391-86c4-4ec8-81d4-2117c5480b6b)
 - 更新Ubuntu系统
 ```C
 sudo apt update
