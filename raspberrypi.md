@@ -17,8 +17,8 @@ https://www.putty.be/latest.html
 1. 获取树莓派ip
 ![ra](https://github.com/user-attachments/assets/d9000e8c-15cf-4733-b6cc-8f35df735310)
 2. 连接
-- 输入账号和密码
 ![putty](https://github.com/user-attachments/assets/a6008391-86c4-4ec8-81d4-2117c5480b6b)
+- 输入账号和密码
 - 更新Ubuntu系统
 ```C
 sudo apt update
