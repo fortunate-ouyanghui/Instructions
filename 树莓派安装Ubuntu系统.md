@@ -1,4 +1,4 @@
-# 树莓派4安装ubuntu系统
+# 树莓派3B安装ubuntu系统
 - 下载Raspberry Pi Imager
 ```C
 https://downloads.raspberrypi.org/imager/imager_latest.exe
@@ -9,15 +9,18 @@ https://www.putty.be/latest.html
 ```
 - 电脑插入TF卡
 - Raspberry Pi Imager烧录器配置如下：  
-![配置](https://github.com/fortunate-ouyanghui/env-config/blob/main/raspberry1.jpg)
-![配置](https://github.com/fortunate-ouyanghui/env-config/blob/main/raspberry2.jpg)
-![配置](https://github.com/fortunate-ouyanghui/env-config/blob/main/raspberry3.jpg)
+1. 选择ubuntu系统
+![1](https://github.com/user-attachments/assets/c78d4c76-1900-4550-b8a4-c88db5daf2d3)
+2. 开启SSH服务
+![2](https://github.com/user-attachments/assets/616cc2e0-9ad6-40e6-a849-e0078b838836)
+3. 配置热点
+![3](https://github.com/user-attachments/assets/ee5022a7-8be1-4284-b1b7-079d032ce42d)
 - 烧录
 - 使用Putty连接树莓派Ubuntu系统
 1. 获取树莓派ip
-![ra](https://github.com/user-attachments/assets/d9000e8c-15cf-4733-b6cc-8f35df735310)
+![4](https://github.com/user-attachments/assets/3ceb230d-bb67-452f-9d2e-af41c1fc3971)
 2. 连接
-![putty](https://github.com/user-attachments/assets/a6008391-86c4-4ec8-81d4-2117c5480b6b)
+![5](https://github.com/user-attachments/assets/13b29d00-98ad-42be-a36b-56be6b9046fe)
 - 输入账号和密码
 - 更新Ubuntu系统
 ```C
