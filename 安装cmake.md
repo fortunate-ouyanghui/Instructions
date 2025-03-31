@@ -1,6 +1,16 @@
 # 配置cmake
 - 环境：ubuntu22
 - 步骤：
+0. 安装编译器
+```C
+sudo apt update
+sudo apt install build-essential
+#临时设置环境变量
+export CC=/usr/bin/gcc
+#永久设置环境变量
+echo 'export CC=/usr/bin/gcc' >> ~/.bashrc
+source ~/.bashrc
+```
 1. 下载cmake
 ```C
 https://github.com/Kitware/CMake/releases/download/v3.24.2/cmake-3.24.2.tar.gz
