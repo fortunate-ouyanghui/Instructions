@@ -1,14 +1,17 @@
 # 上传本地代码至远程仓库
-- 添加公私密钥（指定用户才可上传代码至远程仓库）
-```C
-略
-```
+## 1.添加公私密钥（指定用户才可上传代码至远程仓库）
+- 本地生成密钥
+<img width="716" height="329" alt="ssh" src="https://github.com/user-attachments/assets/c48175c8-112f-4da4-8440-31e641f017cc" />
+
+- 将本地密钥添加到远程仓库
+<img width="1828" height="753" alt="ss" src="https://github.com/user-attachments/assets/89aaca89-d44f-4a54-a83e-baae8ca352c7" />
+
 - 添加要操作的远程仓库
 ```C
 git remote add origin 远程仓库的SSH(如:git@gitee.com:MA_17/Infantry.git)  #origin是给远程仓库取得别名
 git remote                                                               #查看可操作的远程仓库
 ```
-- 上传本地代码至远程仓库
+## 2.上传本地代码至远程仓库
 ```C
 git push -f origin main:master                                           #-f表示强制上传，origin表示要上传的远程仓库，main:master表示将本地main分支的代码上传至远程仓库的master仓库
 或者
