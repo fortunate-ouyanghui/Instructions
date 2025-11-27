@@ -8,14 +8,14 @@
 
 - 添加要操作的远程仓库
 ```C
-git remote add origin 远程仓库的SSH(如:git@gitee.com:MA_17/Infantry.git)  #origin是给远程仓库取得别名
+git remote add origin 远程仓库的SSH(如:git@gitee.com:MA_17/Infantry.git 或https://github.com/fortunate-ouyanghui/Instructions.git)  #origin是给远程仓库取得别名
 git remote                                                               #查看可操作的远程仓库
 ```
 ## 2.上传本地代码至远程仓库
 ```C
 git push -f origin main:master                                           #-f表示强制上传，origin表示要上传的远程仓库，main:master表示将本地main分支的代码上传至远程仓库的master仓库
 或者
-git pull origin master --allow-unrelated-histories                       #拉取远程 master 分支并合并
+git pull origin master --allow-unrelated-histories                       #拉取远程 master 分支并合并到该本地分支
 git push origin main:master                                              
 ```
 # git 常用命令
@@ -35,3 +35,5 @@ git push origin main:master
 ## 冲突
 - 两个人（两个分支）修改了同一个文件中的同一行代码，然后使用git merge 进行融合，产生冲突
 - 手动解决
+## 移除远程仓库在本地的别名
+- git remote remove origin
