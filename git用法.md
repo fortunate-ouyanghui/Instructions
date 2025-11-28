@@ -16,6 +16,8 @@ git remote                                                               #查看
 git push -f origin main:master                                           #-f表示强制上传，origin表示要上传的远程仓库，main:master表示将本地main分支的代码上传至远程仓库的master仓库
 或者
 git pull origin master --allow-unrelated-histories                       #拉取远程 master 分支并合并到该本地分支
+git add .
+git commit -m "merge main branch"
 git push origin main:master                                              
 ```
 # git 常用命令
